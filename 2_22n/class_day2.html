@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .btn{
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #D2E885 !important;
+    background: #a4d007;
+    background: -webkit-linear-gradient( top, #a4d007 5%, #536904 95%);
+    background: linear-gradient( to bottom, #a4d007 5%, #536904 95%);
+  }
+  </style>
+</head>
+<body>
+
+<button class="btn">
+  test steam btn
+</button>
+
+  <script>
+var a;
+var b;
+var c;
+var d;
+console.log("variable are:",a,b,c,d);
+
+var myvar=1;
+console.log(myvar);
+
+var name="Jones";
+var last_name="G";
+var status="single";
+var country="India";
+var age="20";
+console.log(name)
+console.log(last_name)
+console.log(status)
+console.log(country)
+console.log(age)
+
+
+
+var str="sankar";
+var yes = true
+var condition;
+var path=null;
+console.log("string:",typeof(str));
+console.log("boolean:",typeof(yes));
+console.log("undefined:",typeof(condition));
+console.log("null:",typeof(path));
+
+
+var form={name:"Jones",last_name:"G",status:"single",country:"India",age:"20"};
+console.log(Object.values(form));
+
+
+
+//Array-----------
+let friends=["Mari","MaryJane","Captain","Munnabai","Jeff","ADK"];
+console.log(friends.length)
+
+friends[0]="Munnabai"
+console.log(friends);
+
+//Object----------
+const car={type:"Fiat",model:"500",color:"white"};
+console.log(Object.keys(car).length)
+
+car.milage=30;
+console.log(Object.values(car).length)
+console.log(Object.values(car)[1]);
+  </script>
+</body>
+</html>

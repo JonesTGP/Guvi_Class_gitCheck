@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var a=30;
+    var b=50
+    //concate
+    //template literals
+    //backtick
+    console.log("Value of a is "+a+" and Value of b is "+50);
+    console.log(`Valur of a is ${a} and Valur of b is ${b}`);
+    console.log("a:"+30+" b:"+50);
+    console.log(`a:${a} b:${b}`)
+    console.log("a and b value is:"+a+" "+b+" respectively");
+    console.log(`a and b value is:${a} ${b} respectively`)
+
+    var name="jones"
+    var age=40
+    var loc="India"
+
+    arr1={pear:name,vias:age,area:loc}
+    console.log(arr1);
+
+    arr2={name,age,loc};
+    console.log(arr2)
+
+var arr4=[1,2,3,4,5,6]
+    function add(a,b,...arr3){
+      console.log(a)
+      console.log(b)
+      console.log(arr3)
+      console.log(...arr3)
+      console.log(a,b,...arr3)
+    }
+
+    add(1,2,3,4,5,6)
+console.log(...arr4)
+
+  </script>
+</body>
+</html>
